@@ -26,8 +26,8 @@
      }
    };
    estimatedTime(value = false){
-     if (value = true) {
+     if (value === true) {
        return this.blocksTravelled() / 2
-     }
+     } else
    }
  }
