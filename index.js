@@ -16,6 +16,9 @@
      this.endingLocation_vertical= endingLocation.vertical;
    }
    blocksTravelled(){
-     if (this.beginningLocation_horizontal)
+     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
+     if (this.beginningLocation_horizontal === this.endingLocation_horizontal) {
+       return Math.abs(this.beginningLocation_vertical - this.endingLocation_vertical);
+     }
    }
  }
