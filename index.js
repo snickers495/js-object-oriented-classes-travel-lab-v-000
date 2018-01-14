@@ -27,7 +27,7 @@
    };
    estimatedTime(value = false){
      if (value = true) {
-       return blocksTravelled() / 3
+       return this.blocksTravelled() / 3
      }
    }
  }
