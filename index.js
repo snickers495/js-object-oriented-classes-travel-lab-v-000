@@ -12,7 +12,7 @@
    constructor(beginningLocation, endingLocation){
      this.beginningLocation_horizontal = beginningLocation.horizontal;
      this.beginningLocation_horizontal = beginningLocation.horizontal;
-     this.endingLocation_horizontal = beginningLocation.horizontal;
+     this.endingLocation_horizontal = endingLocation.horizontal;
      this.beginningLocation_horizontal = beginningLocation.horizontal;
    }
    blocksTravelled(){
