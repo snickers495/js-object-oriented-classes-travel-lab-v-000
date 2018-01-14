@@ -9,5 +9,10 @@
    };
  }
  class Route {
-   
+   constructor(beginningLocation){
+     
+   }
+   blocksTravelled(){
+     
+   }
  }
