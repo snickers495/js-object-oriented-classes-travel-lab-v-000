@@ -25,5 +25,7 @@
        return Math.abs(this.beginningLocation_vertical - this.endingLocation_vertical) + Math.abs(horizontalBlocksFirst - horizontalBlocksLast);
      }
    };
-   estimatedTime
+   estimatedTime(value){
+
+   }
  }
