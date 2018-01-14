@@ -26,7 +26,7 @@
      }
    };
    estimatedTime(value = false){
-     if value = true {
+     if (value = true) {
        return blocksTravelled() / 3
      }
    }
