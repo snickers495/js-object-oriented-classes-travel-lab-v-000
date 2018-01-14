@@ -24,6 +24,6 @@
        let horizontalBlocksLast = eastWest.indexOf(this.endingLocation_horizontal) + 1;
        return Math.abs(this.beginningLocation_vertical - this.endingLocation_vertical) + Math.abs(horizontalBlocksFirst - horizontalBlocksLast);
      }
-
-   }
+   };
+   estimatedTime
  }
