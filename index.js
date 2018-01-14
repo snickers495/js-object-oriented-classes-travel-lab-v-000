@@ -20,9 +20,9 @@
      if (this.beginningLocation_horizontal === this.endingLocation_horizontal) {
        return Math.abs(this.beginningLocation_vertical - this.endingLocation_vertical);
      } else {
-       let verticalBlocksFirst = eastWest.indexOf(this.beginningLocation_vertical) + 1;
-       let verticalBlocksLast = eastWest.indexOf(this.endingLocation_vertical) + 1;
-       return Math.abs(this.beginningLocation_vertical - this.endingLocation_vertical) + Math.abs(verticalBlocksFirst - verticalBlocksLast);
+       let horizontalBlocksFirst = eastWest.indexOf(this.beginningLocation_horizontal) + 1;
+       let horizontalBlocksLast = eastWest.indexOf(this.endingLocation_horizontal) + 1;
+       return Math.abs(this.beginningLocation_vertical - this.endingLocation_vertical) + Math.abs(horizontalBlocksFirst - horizontalBlocksLast);
      }
 
    }
