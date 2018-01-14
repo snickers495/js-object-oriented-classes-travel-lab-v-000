@@ -9,10 +9,13 @@
    };
  }
  class Route {
-   constructor(beginningLocation){
-     
+   constructor(beginningLocation, endingLocation){
+     this.beginningLocation_horizontal = beginningLocation.horizontal;
+     this.beginningLocation_horizontal = beginningLocation.horizontal;
+     this.endingLocation_horizontal = beginningLocation.horizontal;
+     this.beginningLocation_horizontal = beginningLocation.horizontal;
    }
    blocksTravelled(){
-     
+
    }
  }
